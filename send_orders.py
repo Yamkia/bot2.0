@@ -14,7 +14,7 @@ def buy_stocks(symbol, direction, volume, comment=" "):
         "symbol": symbol,
         "type": type_,
         "price": price,
-        "volume": volume,
+        "volume": float(volume),
         "deviation": 0,
         "type_time":  mt5.ORDER_TIME_GTC,
         "comment": comment,
